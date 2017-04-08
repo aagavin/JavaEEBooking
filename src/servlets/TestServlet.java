@@ -13,6 +13,7 @@ import java.io.IOException;
  */
 @javax.servlet.annotation.WebServlet(name = "servlets.TestServlet", urlPatterns = "root")
 public class TestServlet extends javax.servlet.http.HttpServlet {
+
 	protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
 
 	}
@@ -30,6 +31,6 @@ public class TestServlet extends javax.servlet.http.HttpServlet {
 //			System.out.println(c.getFullname());
 //		}
 //
-//		System.out.println("TEST");
+		System.out.println("TEST");
 	}
 }

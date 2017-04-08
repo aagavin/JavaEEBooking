@@ -6,6 +6,7 @@ import javax.persistence.*;
  * Created by aaron on 4/4/17.
  */
 @Entity
+@NamedQuery(name="Customer.insertOne", query="INSERT INTO Customer (email, fullname, passphrase) VALUES (a ,b, c)")
 @Table(name = "CUSTOMER", schema = "resort303db", catalog = "")
 public class CustomerEntity {
 	private int id;
