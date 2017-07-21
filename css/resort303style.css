@@ -1,0 +1,62 @@
+/* charset */
+@charset "utf-8";
+/* css imports */
+@import url("../framework/mdl/material.min.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("http://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+/* body and scrollbars */
+body
+{
+    background-color: #303030;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+body::-webkit-scrollbar
+{
+    width: 1em;
+}
+body::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-thumb
+{
+    background-color: #a9a9a9;
+    outline: 1px solid #708090;
+}
+/* Layout/card-box style via Material Design Lite Framework */
+.card-wide.mdl-card
+{
+    margin: 0px auto;
+    margin-top: 19px;
+    width: 90%;
+    background-color: #d4df38;
+    text-align: center;
+}
+.card-wide > .mdl-card__title
+{
+    color: #ffffff;
+    height: 276px; /* scaled 1024x276 actual 1280x685 */  
+    background: url("../img/resort303-splash-banner-anantara-xishuangbanna-1.jpg") center / cover;
+    font-weight: 700;
+}
+.card-wide > .mdl-card__menu
+{
+    color: #ffffff;
+}
+.card-wide > .mdl-card__title-text
+{
+    font-weight: 300;
+    text-align: center;
+}
+.resort303roomimage
+{
+    box-shadow: 9px 9px 3px #000000;
+}
+hr
+{
+    width: 75%;
+    height: 9px;
+    color: #7f7f7f;
+}
+/* Image credits: http://www.remotelands.com/preferhotel/china and http://xishuangbanna.anantara.com/ */
